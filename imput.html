@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta name="generator" content="HTML Tidy for HTML5 for Linux version 5.2.0">
+<meta charset="utf-8">
+<title>Document</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+ <style>
+                .container {
+                border: 1px solid papayawhip;
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+               
+            }
+
+
+                .inner {
+                
+                border: 1px solid burlywood;
+                background: lavender;
+                width:19.7vw;
+                height: 50vh;
+                
+
+                
+   
+            }
+
+
+            
+            
+            
+    </style>  
+</head>
+<body>
+    <div class="container">
+            <div class="inner">
+                   <p>input type=search placeholde</p>
+                   <p><input type=search placeholder="Введите текст для поиска">
+                    <p>input type="submit" value</p>
+                    <input type="submit" value="Искать"></p>
+                
+
+            </div>
+            <div class="inner">
+                <p>input type="text" size</p>
+                <input type="text" size="5vh">
+                <input type="password" size="20vh">
+            </div>
+            <div class="inner">
+                <p>input name="user" required placeholder</p>
+                <p><input name="user" required placeholder="Ваше имя"></p>
+                <p><input type="submit" value="Отправить"></p>
+            </div>
+            <div class="inner">
+                <p>input type="tel" pattern</p>
+                <form>
+                 <p>Введите телефон в формате +380-xx-xxx-xx-xx, где вместо x 
+                 должна быть цифра:</p>
+                 <p><input type="tel" pattern="+380-[0-9]{2}-[0-9]{3}-[0-9]{2}--[0-9]{2}"></p>
+                 <p><input type="submit" value="Отправить"></p>
+                </form>
+            </div>
+            <div class="inner">
+                 <p>input type="datetime-local"</p>
+                 <input type="datetime-local"> 
+            </div>
+            <div class="inner">
+                  <p>input type="search" name="s" autofocus</p>
+              <form action="handler.php">
+                  <p>Поиск по сайту</p>
+                  <p><input type="search" name="s" autofocus>
+                  <input type="submit" value="Искать"></p>
+               </form>
+            </div>
+            <div class="inner">
+                <p>input id="image" type="image" alt="Login" src</p>
+                <input id="image" type="image" alt="Login" src="https://raw.githubusercontent.com/mdn/learning-area/master/html/forms/image-type-example/login.png">
+            </div>
+            <div class="inner">
+                <p>input type="number" min="35" max="41"</p>
+                <form action="handler.php">
+                <p>Укажите вашу температуру в градусах Цельсия</p>
+                <input type="number" min="35" max="41" value="36.6" step="0.1" /></p>
+         </form> 
+            </div>
+            <div class="inner">
+                  <p>input list</p>
+                <form> 
+                  <p><input list="cocktail"></p>
+                  <datalist id="cocktail">
+                  <option>Аперитивы</option>
+                  <option>Горячие</option>
+                  <option>Десертные</option>
+                  <option>Диджестивы</option>
+                  <option>Молочные</option>
+                  <option>Слоистые</option>
+                   </datalist> 
+                </form> 
+                  <p>input list</p>
+            </div>
+            <div class="inner">
+                   <form id="data"></form>
+                   <p><input placeholder="Ваше имя" name="user" form="data"></p>
+                   <p><input type="submit" value="Отправить форму" form="data"></p>
+            </div>
+    </div>
+  </body>
+</html>
